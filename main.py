@@ -2,6 +2,7 @@ from spellchecker import SpellChecker
 
 spell = SpellChecker()
 
+
 # find those words that may be misspelled
 misspelled = spell.unknown(['something', 'is', 'hapenning', 'here'])
 
